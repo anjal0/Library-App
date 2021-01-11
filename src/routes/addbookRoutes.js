@@ -14,6 +14,11 @@ addbookRouter.get('/',function(req,res)
     }); 
 });
 
+addbookRouter.get('/add',function(req,res)
+{
+    res.send("hello I'm added");
+})
+
 return addbookRouter;
 
 }

@@ -105,7 +105,7 @@
           <!--/stories-->
         
           
-          <form action="/index" class="frm">
+          <form method="GET" action="/addbook/add" class="frm">
             <p>
               <label>Book Name</label>
               <input type="text" name="email" required>
@@ -115,12 +115,16 @@
               <input type="text" name="password" required>
             </p>
             <p>
+              <label>Genre</label>
+              <input type="text" name="genre" required>
+            </p>
+            <p>
                <label>Cover page</label>
                <input type="file" name="input1" id="input" onchange="showFiles()" accept="image/*">
                <image id="preview">
             </p>
             <p>
-                <input type="submit" value="Submit">
+                <input type="submit" value="Add Book">
                 </p>
           <!--/stories-->
           
